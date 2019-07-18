@@ -19,7 +19,7 @@ function currentLine(katzDeliLine) {
     return "The line is currently empty.";
     }
     else {
-      var lineNumber ;
+      var lineNumber = "";
       var i = 0;
       do {
     lineNumber = lineNumber + i +". " + katzDeliLine[i];
