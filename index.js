@@ -20,7 +20,7 @@ function currentLine(katzDeliLine) {
     }
     else {
       var lineNumber = "";
-      var i = 0;
+      var i = 1;
       do {
     lineNumber = lineNumber + i +". " + katzDeliLine[i] + ", ";
     i++;
