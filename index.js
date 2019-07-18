@@ -23,7 +23,7 @@ function currentLine(katzDeliLine) {
       var i = 0;
       do {
         var comma ;
-        if (i === katzDeliLine.length) {
+        if (i === katzDeliLine.length-1) {
           comma = "";
         }
         else {
