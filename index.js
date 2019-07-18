@@ -29,7 +29,7 @@ function currentLine(katzDeliLine) {
         else {
           comma = ", ";
         }
-    lineNumber = lineNumber + (1 + i) +". " + katzDeliLine[i] + ", ";
+    lineNumber = lineNumber + (1 + i) +". " + katzDeliLine[i];
     i++;
   }
   while (i < katzDeliLine.length);
