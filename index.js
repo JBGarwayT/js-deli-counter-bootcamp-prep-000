@@ -22,7 +22,7 @@ function currentLine(katzDeliLine) {
       var lineNumber = "";
       var i = 0;
       do {
-    lineNumber = lineNumber + 1 + i +". " + katzDeliLine[i] + ", ";
+    lineNumber = lineNumber + (1 + i) +". " + katzDeliLine[i] + ", ";
     i++;
   }
   while (i < katzDeliLine.length);
