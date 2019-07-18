@@ -20,9 +20,9 @@ function currentLine(katzDeliLine) {
     }
     else {
       var lineNumber = "";
-      var i = 1;
+      var i = 0;
       do {
-    lineNumber = lineNumber + i +". " + katzDeliLine[i] + ", ";
+    lineNumber = lineNumber + 1 + i +". " + katzDeliLine[i] + ", ";
     i++;
   }
   while (i < katzDeliLine.length);
